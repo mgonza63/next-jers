@@ -94,6 +94,8 @@ function SectionOne() {
         }
         @media only screen and (max-width: 600px) {
             #section1 {
+
+                height: 75vh;
                 background-image: url('../static/bw-bg2.jpeg');
                 animation: zoomout 2s cubic-bezier(0.3, 0, 0, 1) 1 ;
                 background-size: 100% 100%
