@@ -110,7 +110,7 @@ function SectionOne() {
 
             }
             h1 {
-                font-size: 140px;
+                font-size: 130px;
 
             }
         }

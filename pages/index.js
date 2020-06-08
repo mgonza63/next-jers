@@ -1,13 +1,11 @@
 import Head from "next/head"
-import ProductList from "../components/ProductList"
 import Header from "../components/Header"
-import Footer from "../components/Footer"
 import HeroSection from "../components/HeroSection"
 
 import '../assets/index.scss'
 
 
-const Index = (props) => {
+const Index = () => {
 
   return (
     <div className="app">
@@ -23,7 +21,7 @@ const Index = (props) => {
         <HeroSection />
         {/* <ProductList products={props.products} /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
       <script src="https://cdn.snipcart.com/themes/v3.0.14/default/snipcart.js"></script>
       <div hidden id="snipcart" data-api-key="MjFjYzUwOTMtNDdmNC00NGNlLWIzMGItZTE2N2NkNjIyMGEzNjM3MjQ1MjM5OTQxNzkwMTkz"></div>
     </div>

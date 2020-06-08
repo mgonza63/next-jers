@@ -29,8 +29,8 @@ function Nav() {
           <Link href="/"><span className="navbar-brand"><img className="logo" src="/static/logo.jpg" alt="logo"></img></span></Link>
 
               <div className="navbar-nav">
-                  <Link href="/tienda" className="nav-item nav-link">
-                      <a>Shop</a>
+                  <Link href="/tienda" >
+                      <a className="nav-item nav-link">Shop</a>
                   </Link>
               </div>
 
