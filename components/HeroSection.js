@@ -16,7 +16,7 @@ function SectionOne() {
     <style jsx>{`
         #section1 {
             height: 90vh;
-            background-image: url(../static/bw-bg1.webp);
+            background-image: url(../static/bw-bg1.jpeg);
             background-size: cover;
             background-color: lightgray;
 
@@ -94,7 +94,7 @@ function SectionOne() {
         }
         @media only screen and (max-width: 600px) {
             #section1 {
-                background-image: url('../static/bw-bg2.webp');
+                background-image: url('../static/bw-bg2.jpeg');
                 animation: zoomout 2s cubic-bezier(0.3, 0, 0, 1) 1 ;
                 background-size: 100% 100%
                 
