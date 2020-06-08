@@ -103,7 +103,11 @@ function SectionOne() {
 
             }
             .media {
-                top: 47vh;
+                top: 40vh;
+            }
+            #title {
+                height: 75vh;
+
             }
         }
 
