@@ -103,10 +103,14 @@ function SectionOne() {
 
             }
             .media {
-                top: 40vh;
+                top: 35vh;
             }
             #title {
-                height: 75vh;
+                height: 70vh;
+
+            }
+            h1 {
+                font-size: 140px;
 
             }
         }
